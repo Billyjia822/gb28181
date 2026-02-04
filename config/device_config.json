@@ -1,0 +1,51 @@
+{
+  "device": {
+    "deviceId": "34020000001320000001",
+    "deviceName": "GB28181 Camera",
+    "manufacturer": "GB28181 Inc.",
+    "model": "IPC-1000",
+    "firmwareVersion": "1.0.0",
+    "civilCode": "440300",
+    "address": "Shenzhen, Guangdong, China"
+  },
+  "sip": {
+    "localIp": "192.168.1.100",
+    "localPort": 5060,
+    "realm": "3402000000",
+    "serverIp": "192.168.1.1",
+    "serverPort": 5060,
+    "username": "34020000001320000001",
+    "password": "12345678",
+    "heartbeatInterval": 60,
+    "registerInterval": 3600
+  },
+  "rtp": {
+    "localIp": "192.168.1.100",
+    "basePort": 50000,
+    "ssrc": 12345678
+  },
+  "media": {
+    "video": {
+      "type": "H264",
+      "width": 1920,
+      "height": 1080,
+      "fps": 25,
+      "bitrate": 4096,
+      "gop": 25
+    },
+    "audio": {
+      "type": "G711A",
+      "sampleRate": 8000,
+      "channels": 1,
+      "bitrate": 64
+    }
+  },
+  "channels": [
+    {
+      "channelId": "34020000001320000001",
+      "channelName": "Camera 1",
+      "channelType": 0,
+      "status": "ON"
+    }
+  ]
+}
